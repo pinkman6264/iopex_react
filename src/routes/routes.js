@@ -4,15 +4,12 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Homepage from '../Website/Homepage';
 import Header from '../Website/Header';
-import PostPage from  '../Website/PostPage';
-import AddPost from '../Website/AddPost';
-import EditPost from '../Website/EditPost';
+
 
 import AddLocation from '../Website/AddLocation';
-import AddRule from '../Website/AddRule';
-import Loginpg from '../Website/Loginpg';
 
-  
+
+
 
 
 export default function Routes() {
@@ -59,46 +56,6 @@ export default function Routes() {
           </React.Fragment>
         )}
       />
-
-<Route
-        exact
-        path={'/rule'}
-        render={(props) => (
-          <React.Fragment>
-              <Header {...props}/>
-             <AddRule {...props} />
-          
-          </React.Fragment>
-        )}
-      />
-
-
-<Route
-        exact
-        path={'/trans'}
-        render={(props) => (
-          <React.Fragment>
-              <Header {...props}/>
-             <AddPost {...props} />
-          
-          </React.Fragment>
-        )}
-      />
-
-
-<Route
-        exact
-        path={'/speachtotext'}
-        render={(props) => (
-          <React.Fragment>
-              <Header {...props}/>
-             <EditPost {...props} />
-          
-          </React.Fragment>
-        )}
-      />
-
-
    
 
  </BrowserRouter>

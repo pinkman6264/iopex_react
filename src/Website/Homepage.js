@@ -87,7 +87,7 @@ const id = getData.id;
 //removing specific id in previous state data
 const Data = previousData.filter((delelteid) => delelteid.id !== id);
 
-try {
+try { 
     swal({
         title: "Are you sure?",
         text: "Once deleted, you will not be able to recover this !",

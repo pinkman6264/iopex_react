@@ -12,7 +12,7 @@ import AddLocation from '../Website/AddLocation';
 import AddRule from '../Website/AddRule';
 import Loginpg from '../Website/Loginpg';
 
-
+  
 
 
 export default function Routes() {

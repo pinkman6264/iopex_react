@@ -3,16 +3,10 @@ import React, { Component } from 'react';
 import Bridge from '../Middleware/bridge';
 
 import ModelWindow from "../Component/Model";
-import SingleSelect from '../Component/SingleSelect';
-import Switch from "react-switch";
-import { BsInfoCircle } from 'react-icons/bs'
 
 import Datatable from "../Component/Datatable/Datatable";
 import swal from 'sweetalert';
-import moment from 'moment';
-import { AiFillTags } from 'react-icons/ai';
-import { RiMenuFill } from 'react-icons/ri';
-import SearchBar from 'react-js-search';
+
 
 import './Style.css'
 
@@ -50,9 +44,7 @@ class Homepage extends Component {
           description:"",
           mobile:"",
           FullData : JSON.parse(localStorage.getItem("FullData")) == null ? [{ id:1 , name:"dennis" , mobile:"9962154866" , description:"fksdhfdshfuidshfu" }] : JSON.parse(localStorage.getItem("FullData"))
-
-
-    }
+ }
   }
 
  

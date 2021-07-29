@@ -43,11 +43,9 @@ class Header extends Component {
         <a class="nav-link" href="/home">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/location">Location</a>
+        <a class="nav-link" href="/location">View Users Page</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/rule">Rule</a>
-      </li>
+      
      
       <li class="nav-item">
         <a class="nav-link" onClick={this.Logout} href="javascript:void(0)">Logout</a>

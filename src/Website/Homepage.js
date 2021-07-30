@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import LogoImage from './lorem.jpg';
-import Bridge from '../Middleware/bridge';
 
 import ModelWindow from "../Component/Model";
 

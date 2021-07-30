@@ -34,7 +34,7 @@ export default function Routes() {
 
 <Route
         exact
-        path={'/home'}
+        path={'/'}
         render={(props) => (
           <React.Fragment>
               <Header {...props}/>
